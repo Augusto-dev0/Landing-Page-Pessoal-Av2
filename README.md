@@ -24,10 +24,10 @@ Informações para que o visitante possa me encontrar ou entrar em contato.
 
 🛠️ Tecnologias Utilizadas
 
-HTML5 – Estrutura da página
-CSS3 – Estilização, organização visual e responsividade
-VS Code – Edição e desenvolvimento
-GitHub Pages – Para publicação da página online. ("https://augusto-dev0.github.io/Landing-Page-Pessoal-Av2/")
+1. HTML5 – Estrutura da página
+2. CSS3 – Estilização, organização visual e responsividade
+3. VS Code – Edição e desenvolvimento
+4. GitHub Pages – Para publicação da página online. ("https://augusto-dev0.github.io/Landing-Page-Pessoal-Av2/")
 
 🚀 Como Executar o Projeto:
 
