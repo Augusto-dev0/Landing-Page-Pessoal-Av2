@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cabecalho {
+    background: #2c3e50;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 2rem;
+}
+
+.menu a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.menu a:hover {
+    color: #3498db;
+}
+
+.principal {
+    margin-top: 80px;
+}
+
+.secao-apresentacao {
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: white;
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.nome-destaque {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.frase-apresentacao {
+    font-size: 1.5rem;
+    opacity: 0.9;
+}
+
+.secao-sobre,
+.secao-projetos {
+    padding: 4rem 0;
+    background: white;
+}
+
+.secao-habilidades {
+    padding: 4rem 0;
+    background: #ecf0f1;
+}
+
+.secao-contato {
+    padding: 4rem 0;
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+}
+
+.titulo-secao {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+}
+
+.secao-contato .titulo-secao {
+    color: white;
+}
+
+.conteudo-sobre {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3498db;
+}
+
+.lista-habilidades,
+.lista-projetos {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-habilidade,
+.card-projeto {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 350px;
+}
+
+.card-projeto {
+    background: #f8f9fa;
+    border-left: 4px solid #3498db;
+}
+
+.card-habilidade ul {
+    list-style: none;
+}
+
+.card-habilidade li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ecf0f1;
+}
+
+.botao-link {
+    display: inline-block;
+    background: #3498db;
+    color: white;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.botao-link:hover {
+    background: #2980b9;
+    transform: translateY(-2px);
+}
+
+.link-rede {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+
+.link-rede:hover {
+    background: #3498db;
+    transform: translateY(-2px);
+}
+
+.rodape {
+    background: #34495e;
+    color: #ecf0f1;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .nome-destaque {
+        font-size: 2rem;
+    }
+
+    .conteudo-sobre {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .foto-perfil {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    .lista-habilidades,
+    .lista-projetos {
+        flex-direction: column;
+    }
+
+    .card-habilidade,
+    .card-projeto {
+        min-width: 100%;
+    }
+}
