@@ -9,9 +9,10 @@
 </head>
 
 <body>
+
     <!-- Cabeçalho -->
     <header class="cabecalho">
-        <nav class="navegação">
+        <nav class="navegacao" aria-label="Menu principal">
             <ul class="menu">
                 <li><a href="#sobre">Sobre</a></li>
                 <li><a href="#habilidades">Habilidades</a></li>
@@ -22,117 +23,116 @@
     </header>
 
     <!-- Conteúdo Principal -->
-    <main class="principal">
-        <!-- Seção de Apresentação -->
+    <main>
+
+        <!-- Seção Apresentação -->
         <section class="secao-apresentacao">
             <div class="container">
                 <h1 class="nome-destaque">Luiz Augusto Correia Freire</h1>
-                <p class="frase-apresentação">Estudante de Ciência da Computação focado em desenvolvimento web e dados
-                </p>
+                <p class="frase-apresentacao">Estudante de Ciência da Computação focado em desenvolvimento web e dados</p>
             </div>
         </section>
 
-        <!-- Seção Sobre Mim -->
+        <!-- Sobre Mim -->
         <section id="sobre" class="secao-sobre">
             <div class="container">
                 <h2 class="titulo-secao">Sobre Mim</h2>
+
                 <div class="conteudo-sobre">
                     <img src="https://i.postimg.cc/t4cRkTCZ/7e5c5c2c-8370-48d8-805d-dfa885752e7f.jpg"
-                        alt="Foto de perfil" class="foto-perfil">
+                         alt="Foto de Luiz Augusto" class="foto-perfil">
+
                     <div class="texto-sobre">
-                        <p>Olá! Eu sou Luiz Augusto.
-                            Sou estudante de [Ciencia da computação] na [UNINASSAU-MACEIÓ] e apaixonado por [tecnologia,
-                            design, desenvolvimento web]. Aqui neste portfólio, compartilho meus projetos acadêmicos,
-                            trabalhos práticos e algumas das minhas experiências de aprendizado.
-                            Meu objetivo é aplicar meus conhecimentos de forma prática, aprender continuamente e criar
-                            soluções que façam sentido. Navegue pelos meus projetos e sinta-se à vontade para entrar em
-                            contato caso queira trocar ideias ou discutir colaborações futuras.</p>
-                        Atualmente, estou focado em expandir meus conhecimentos em front-end development enquanto
-                        aprofundo minha compreensão em lógica de programação e estruturas de dados. E conseguir um
-                        trabalho nessa area.</p>
+                        <p>Olá! Eu sou Luiz Augusto. Sou estudante de Ciência da Computação na UNINASSAU-Maceió e apaixonado por tecnologia, design e desenvolvimento web.</p>
+                        
+                        <p>Aqui neste portfólio compartilho projetos acadêmicos, exercícios práticos e parte da minha jornada de aprendizado.</p>
+
+                        <p>Atualmente estou aprofundando meus estudos em front-end, lógica de programação e estruturas de dados, com o objetivo de entrar no mercado de tecnologia.</p>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Seção Habilidades -->
+        <!-- Habilidades -->
         <section id="habilidades" class="secao-habilidades">
             <div class="container">
                 <h2 class="titulo-secao">Habilidades Técnicas</h2>
+
                 <div class="lista-habilidades">
-                    <div class="card-habilidade">
+                    <article class="card-habilidade">
                         <h3>Front-end</h3>
                         <ul>
-                            <li>HTML5 (Basico)</li>
-                            <li>CSS3 (Basico)</li>
+                            <li>HTML5 (Básico)</li>
+                            <li>CSS3 (Básico)</li>
                         </ul>
-                    </div>
-                    <div class="card-habilidade">
+                    </article>
+
+                    <article class="card-habilidade">
                         <h3>Back-end</h3>
                         <ul>
                             <li>Python</li>
                             <li>Lógica de Programação</li>
-                            <li>Estruturas de Dados (Basico)</li>
+                            <li>Estruturas de Dados (Básico)</li>
                         </ul>
-                    </div>
-                    <div class="card-habilidade">
+                    </article>
+
+                    <article class="card-habilidade">
                         <h3>Ferramentas</h3>
                         <ul>
                             <li>Git & GitHub</li>
                             <li>VS Code</li>
                         </ul>
-                    </div>
+                    </article>
                 </div>
             </div>
         </section>
 
-        <!-- Seção Projetos -->
+        <!-- Projetos -->
         <section id="projetos" class="secao-projetos">
             <div class="container">
                 <h2 class="titulo-secao">Meus Projetos</h2>
+
                 <div class="lista-projetos">
+
                     <article class="card-projeto">
                         <h3>Quiz Interativo (Console)</h3>
-                        <p>Projeto em Python para um quiz interativo no console que aplica conceitos de POO: classes,
-                            herança e encapsulamento.</p>
-                        <a href="https://github.com/Augusto-dev0/Quiz-Interativo-Console-.git" class="botao-link"
-                            target="_blank">Ver no GitHub</a>
+                        <p>Projeto em Python aplicando conceitos de Programação Orientada a Objetos: classes, herança e encapsulamento.</p>
+                        <a href="https://github.com/Augusto-dev0/Quiz-Interativo-Console-.git" 
+                           class="botao-link" target="_blank">Ver no GitHub</a>
                     </article>
 
                     <article class="card-projeto">
                         <h3>Sistema de Gestão Acadêmica</h3>
-                        <p>Projeto em Python para gerenciamento de alunos e notas, implementando conceitos de POO e
-                            estruturas de dados.</p>
-                        <a href="https://github.com/Augusto-dev0/Sistema-gest-o-academica.git" class="botao-link"
-                            target="_blank">Ver no GitHub</a>
+                        <p>Aplicação feita em Python para gerenciamento de alunos e notas, utilizando POO e estruturas de dados.</p>
+                        <a href="https://github.com/Augusto-dev0/Sistema-gest-o-academica.git" 
+                           class="botao-link" target="_blank">Ver no GitHub</a>
                     </article>
 
                 </div>
             </div>
         </section>
 
-        <!-- Seção Contato -->
+        <!-- Contato -->
         <section id="contato" class="secao-contato">
             <div class="container">
                 <h2 class="titulo-secao">Contato</h2>
-                <div class="info-contato">
-                    <div class="redes-sociais">
-                        <a href="https://www.linkedin.com/in/luiz-augusto7x" class="link-rede"
-                            target="_blank">LinkedIn</a>
-                        <a href="https://github.com/Augusto-dev0" class="link-rede" target="_blank">GitHub</a>
-                        <a href="https://www.instagram.com/luiz.augusto7x/" class="link-rede" target="_blank">Instagram</a>
-                    </div>
+
+                <div class="redes-sociais">
+                    <a href="https://www.linkedin.com/in/luiz-augusto7x" class="link-rede" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/Augusto-dev0" class="link-rede" target="_blank">GitHub</a>
+                    <a href="https://www.instagram.com/luiz.augusto7x/" class="link-rede" target="_blank">Instagram</a>
                 </div>
             </div>
         </section>
+
     </main>
 
     <!-- Rodapé -->
     <footer class="rodape">
         <div class="container">
-            <p class="texto-rodape">Desenvolvido por Luiz Augusto - 2025</p>
+            <p class="texto-rodape">Desenvolvido por Luiz Augusto — 2025</p>
         </div>
     </footer>
-</body>
 
+</body>
 </html>
